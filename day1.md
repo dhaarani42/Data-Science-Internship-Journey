@@ -1,0 +1,83 @@
+# Day 1 – Deloitte Data Analytics Internship
+
+## Overview
+On Day 1, I completed two hands-on tasks focused on data visualization and data classification using Tableau and Excel.
+
+---
+
+## Task 1: Telemetry Data Analysis (Tableau)
+
+### Problem Statement
+Daikibo Industrials collected telemetry data from machines across multiple factories. The goal was to analyze machine health data and identify:
+
+- Which factory had the highest number of unhealthy machines
+- Which device types contributed most to machine failures
+
+---
+
+### Work Done
+- Installed Tableau and set up the environment  
+- Imported telemetry dataset  
+- Created a calculated field **"Unhealthy"** based on machine status  
+- Built two sheets:
+  - **Sheet 1:** Factory (Columns) vs Unhealthy (Rows)  
+  - **Sheet 2:** Device Type (Columns) vs Unhealthy (Rows)  
+- Created a dashboard combining both sheets  
+- Applied filter (funnel icon) to enable interactive analysis  
+- Focused on high unhealthy values to identify problem areas  
+- Submitted the completed dashboard  
+
+---
+
+### Key Learning
+- Creating calculated fields in Tableau  
+- Building dashboards and applying filters  
+- Analyzing industrial telemetry data  
+
+---
+
+## Task 2: Equality Classification Analysis (Excel)
+
+### Problem Statement
+An employee compensation dataset was provided with the following columns:
+
+- Factory  
+- Job Role  
+- Equality Score (ranging from -100 to +100, where 0 is ideal)
+
+The task was to create a new column **"Equality Class"** to categorize each score into:
+
+- **Fair:** between -10 and +10  
+- **Unfair:** between -20 to -10 and 10 to 20  
+- **Highly Discriminative:** less than -20 or greater than +20  
+
+---
+
+### Work Done
+- Imported the dataset into Excel/Tableau  
+- Created a calculated field **"Equality Class"**  
+- Applied conditional logic to classify scores into categories  
+- Validated classification using sample values:
+  - 10 → Fair  
+  - -9 → Fair  
+  - -30 → Highly Discriminative  
+- Submitted the completed task  
+
+---
+
+### Key Learning
+- Applying conditional logic to classify data  
+- Understanding fairness metrics in employee compensation  
+- Working with real-world structured datasets  
+
+---
+
+## Final Outcome
+- Successfully completed both tasks  
+- Gained hands-on experience in Tableau and Excel  
+- Improved data visualization and classification skills  
+
+---
+
+## Reflection
+Day 1 helped me understand how data analysis is used to solve real-world business problems. I gained practical exposure to tools and learned how to convert raw data into meaningful insights.
